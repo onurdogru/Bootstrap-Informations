@@ -1,0 +1,100 @@
+/* Ana Sayfanın background'ı ile ilgili işlem satırları*/
+* {
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(32, 6, 36); */
+    background: url(./bg1.jpg) no-repeat;
+
+}
+/* Mars Game logosunun etiketi(class) navbar-brand. Bu ismi kullanarak yapılan işlemler ise aşağıdadır.*/
+.navbar-brand {
+    padding-top: 1;
+    font-size: 1,5rem;
+    color: orange;
+    font-family: 'Bungee Spice', cursive;
+    background: transparent;
+}
+
+/* hover etiketi: mouse ile üzerine geldiğinde rengini değiştirmek için kullanılır.*/
+.navbar-brand:hover {
+    color : #00CED1;
+}
+
+.nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:rgb(158, 100, 14);
+    text-transform: uppercase;  /* Bu satır text kısmının, yazı şeklini değiştirmektedir.*/
+    font-family: 'Bungee Spice', cursive;
+    background: transparent;
+}
+
+.nav-item:hover {
+    color:beige;
+}
+
+form {
+    background-color: rgb(32, 6, 36);
+    width: 300px;
+    height: 44px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* Sağ Üst Tarafdaki Buton Kısmı Başlangıç   */
+  .button {
+    
+    top:20%;
+    background-color:#FF7F50;
+    color: rgb(36, 8, 8);
+    border:none; 
+    border-radius:20px; 
+    padding:3px;
+    min-height:20px; 
+    min-width: 80px;
+    
+  }
+
+  .button:hover {
+    background-color:#FFD700;
+    transition: 0.7s;
+    color:brown;
+}
+
+.query {
+    border-radius: 20px;
+}
+
+/* Sağ üst tarafdaki Buton Kısmı Bitiş  */
+
+.main {
+    /* background: url(./bg1.jpg) no-repeat;  */
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 45px;
+    width : 35%;
+    border: none;
+    outline: none;
+    background-color: #FFD700;
+    color: bisque;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+
+
+
+
